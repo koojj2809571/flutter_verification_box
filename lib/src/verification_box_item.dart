@@ -84,7 +84,7 @@ class VerificationBoxItem extends StatelessWidget {
         showCursor
             ? Positioned.fill(
                 child: VerificationBoxCursor(
-                color: cursorColor ?? Theme.of(context).cursorColor,
+                color: cursorColor ?? Theme.of(context).textSelectionTheme.cursorColor,
                 width: cursorWidth,
                 indent: cursorIndent,
                 endIndent: cursorEndIndent,
